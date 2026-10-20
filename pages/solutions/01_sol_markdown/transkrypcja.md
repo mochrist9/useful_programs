@@ -1,6 +1,11 @@
-```markdown
 # Transkrypcja
 ![Notatka](zrzut.png)
+
+## Prompt użyty do wygenerowania tekstu przez AI
+
+```
+Weź zrzut ekranu zrzut.png z ręcznymi notatkami i przepisz informacji (transkrypcji) widocznej na zrzucie do kodu Markdown.
+```
 
 ## Finalna wersja notatki
 
@@ -42,5 +47,3 @@ $$
   - → rozwiązanie – funkcje Bessela typu $J_{l+1/2}$
 
 # 12. PORÓWNAĆ WŁASNOŚCI HETEROSTRUKTUR, DRUTÓW I KROPEK KWANTOWYCH.
-...
-```
