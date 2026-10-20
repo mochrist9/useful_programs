@@ -1,5 +1,5 @@
 # Transkrypcja
-<img width="1730" height="1181" alt="image" src="https://github.com/user-attachments/assets/ad603475-82a8-454e-a50c-b63326c4d4bc" />
+![Notatka](zrzut.png)
 
 ## Prompt użyty do wygenerowania tekstu przez AI
 
