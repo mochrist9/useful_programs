@@ -51,7 +51,7 @@ $$
 
 ![Schemat wektora prędkości początkowej, jej składowych oraz przyjętych osi](./wykresy_rzut_ukosny/01_schemat_wektorow.png)
 
-*Rysunek 1. Schemat rzutu i konwencja znaków. Ponieważ $\alpha=97^\circ$, składowa $v_{0x}$ jest ujemna, a $v_{0y}$ dodatnia.*
+**Rysunek 1.** Schemat rzutu i konwencja znaków. Ponieważ `α = 97°`, składowa $v_{0x}$ jest ujemna, a $v_{0y}$ dodatnia.
 
 ### 1.3. Założenia fizyczne
 
@@ -310,7 +310,7 @@ Dla modelu idealnego szybkość przy lądowaniu jest równa szybkości początko
 
 ![Porównanie torów lotu bez oporu powietrza i z oporem kwadratowym](./wykresy_rzut_ukosny/02_tory_lotu_porownanie.png)
 
-*Rysunek 2. Niebieska linia przedstawia parabolę bez oporu, a pomarańczowa — tor obliczony numerycznie z oporem. Oba tory rozpoczynają się w punkcie $(0,0)$. Dla $\alpha=97^\circ$ wartości $x$ w czasie lotu są ujemne.*
+**Rysunek 2.** Niebieska linia przedstawia parabolę bez oporu, a pomarańczowa — tor obliczony numerycznie z oporem. Oba tory rozpoczynają się w punkcie `(0, 0)`. Dla `α = 97°` wartości $x$ w czasie lotu są ujemne.
 
 ### 3.3. Współrzędne w funkcji czasu
 
@@ -328,7 +328,7 @@ przy czym $t$ podajemy w sekundach.
 
 ![Współrzędna pozioma i wysokość w funkcji czasu dla obu modeli](./wykresy_rzut_ukosny/03_polozenie_czas.png)
 
-*Rysunek 3. Porównanie $x(t)$ i $y(t)$. Z oporem ciało osiąga mniejszą wysokość, krócej przebywa w powietrzu i pokonuje mniejsze przemieszczenie poziome.*
+**Rysunek 3.** Porównanie `x(t)` i `y(t)`. Z oporem ciało osiąga mniejszą wysokość, krócej przebywa w powietrzu i pokonuje mniejsze przemieszczenie poziome.
 
 ### 3.4. Prędkość w funkcji czasu
 
@@ -350,7 +350,7 @@ $$
 
 ![Składowe prędkości i szybkość dla modelu idealnego oraz modelu z oporem](./wykresy_rzut_ukosny/04_predkosc_czas.png)
 
-*Rysunek 4. W modelu z oporem wartość bezwzględna poziomej składowej prędkości maleje, ponieważ siła oporu przeciwdziała ruchowi w poziomie. Szybkość jest najmniejsza w pobliżu apogeum, ale w tym modelu nie musi być tam równa zeru — pozostaje pozioma składowa ruchu.*
+**Rysunek 4.** W modelu z oporem wartość bezwzględna poziomej składowej prędkości maleje, ponieważ siła oporu przeciwdziała ruchowi w poziomie. Szybkość jest najmniejsza w pobliżu apogeum, ale w tym modelu nie musi być tam równa zeru — pozostaje pozioma składowa ruchu.
 
 ## 4. Energia mechaniczna
 
@@ -399,7 +399,7 @@ Siła oporu aerodynamicznego wykonuje pracę ujemną. Energia mechaniczna nie je
 
 ![Energia kinetyczna, potencjalna i mechaniczna w obu modelach](./wykresy_rzut_ukosny/06_energia.png)
 
-*Rysunek 5. Bez oporu suma energii pozostaje stała i wynosi $93{,}96\,\mathrm{J}$. W modelu z oporem energia mechaniczna maleje; w przyjętym przykładzie do chwili lądowania ubywa około $52{,}6\%$ energii początkowej.*
+**Rysunek 5.** Bez oporu suma energii pozostaje stała i wynosi `93,96 J`. W modelu z oporem energia mechaniczna maleje; w przyjętym przykładzie do chwili lądowania ubywa około `52,6%` energii początkowej.
 
 ## 5. Rzut ukośny z oporem kwadratowym
 
@@ -547,7 +547,7 @@ Dla przyjętych parametrów solver uzyskał następujące wartości:
 
 ![Składowe przyspieszenia oraz wartość siły oporu aerodynamicznego](./wykresy_rzut_ukosny/05_przyspieszenie_i_sila_oporu.png)
 
-*Rysunek 6. Opór zmienia obie składowe przyspieszenia. W chwili początkowej siła oporu jest przeciwnie skierowana do wektora prędkości, czyli ma składową poziomą skierowaną w prawo i pionową skierowaną w dół. W miarę zmniejszania szybkości maleje również wartość siły oporu.*
+**Rysunek 6.** Opór zmienia obie składowe przyspieszenia. W chwili początkowej siła oporu jest przeciwnie skierowana do wektora prędkości, czyli ma składową poziomą skierowaną w prawo i pionową skierowaną w dół. W miarę zmniejszania szybkości maleje również wartość siły oporu.
 
 ## 6. Porównanie modeli i wpływ współczynnika oporu
 
@@ -581,7 +581,7 @@ W celu sprawdzenia wpływu siły aerodynamicznej wykonano dodatkową symulację,
 
 ![Wpływ współczynnika oporu aerodynamicznego na tor lotu](./wykresy_rzut_ukosny/07_wrazliwosc_wspolczynnik_oporu.png)
 
-*Rysunek 7. Większy współczynnik $C_d$ oznacza silniejszy opór w przyjętym modelu, a w konsekwencji niższy tor i krótszy przelot. Krzywa $C_d=0$ odpowiada modelowi idealnemu.*
+**Rysunek 7.** Większy współczynnik `Cd` oznacza silniejszy opór w przyjętym modelu, a w konsekwencji niższy tor i krótszy przelot. Krzywa $C_d=0$ odpowiada modelowi idealnemu.
 
 Wykres jest analizą wrażliwości modelu, a nie dodatkowym pomiarem. Pokazuje, że przewidywania zależą nie tylko od parametrów zadanych w indeksie, lecz także od właściwości aerodynamicznych ciała i powietrza.
 
