@@ -1,73 +1,53 @@
-# Markdown — przykładowy dokument
+# Tytuł
+krótki tekst w ramach jednej podsekcji.
+## Podsekcja
+kolejny krótki tekst w ramach kolejnej podsekcji
+**co najmniej jeden fragment pogrubiony**
+*co najmniej jeden fragment pochylony*
+~~co najmniej jeden fragment przekreślony~~
 
-## Krótki tekst w pierwszej podsekcji
+## Lista punktowana:
+- element 1
+- element 2
+- element 3
 
-Markdown pozwala formatować tekst i tworzyć czytelne dokumenty. Poniżej przedstawiam przykłady jego podstawowych możliwości.
+## Lista numerowana:
+1. element 1
+2. element 2
+3. element 3
 
-## Krótki tekst w kolejnej podsekcji
+## Checklista:
+- [x] zrobione
+- [ ] niezrobione
 
-W tym dokumencie znajdują się przykłady formatowania, list, tabeli, kodu, wzorów matematycznych oraz osadzonego obrazu.
+## Tabelka:
+Kolumna 1 | Kolumna 2 |
+| :-- | --: |
+|Dane a | Dane b |
 
-Ten fragment jest **pogrubiony**.
+## Link:
+[link do strony Google Colab: ](http://colab.research.google.com)
 
-Ten fragment jest *pochylony*.
+## Kod:
+'print("Hello world!")'
 
-Ten fragment jest ~~przekreślony~~.
+## Wzory matematyczne w tekście:
+1. wzór na deltę: $\Delta = b^2 - 4a$;
+2. wzór na pole koła: $P = \pi r^2$;
+3. najlepszy wzór matematyczny: $a^2 = b^2 + c^2$;
 
-## Lista punktowana
+## Wzory matematyczne jako osobny wycentrowany blok:
+1. wzór na deltę:
 
-- Pierwszy element
-- Drugi element
-- Trzeci element
+$$\Delta = b^2 - 4a$$
+  
+2. wzór na pole koła:
 
-## Lista numerowana
+$$P = \pi r^2$$
+  
+3. najlepszy wzór matematyczny:
 
-1. Pierwszy krok
-2. Drugi krok
-3. Trzeci krok
+$$a^2 = b^2 + c^2$$
 
-## Checklista
-
-- [x] Przygotowano dokument Markdown
-- [x] Dodano wymagane elementy zadania
-
-## Tabela
-
-| Przykład | Wartość |
-| --- | ---: |
-| Liczba pierwsza | 2 |
-| Liczba naturalna | 3 |
-
-## Link do Google Colab
-
-[Google Colab](http://colab.research.google.com)
-
-## Kod w Pythonie
-
-```python
-print("Hello, world!")
-```
-
-## Wzory matematyczne w tekście
-
-1. Równanie kwadratowe ma wyróżnik $\Delta = b^2 - 4ac$.
-2. Pole koła obliczamy ze wzoru $P = \pi r^2$.
-3. Twierdzenie Pitagorasa zapisujemy jako $a^2 + b^2 = c^2$.
-
-## Wzory matematyczne jako osobne bloki
-
-$$
-\Delta = b^2 - 4ac
-$$
-
-$$
-P = \pi r^2
-$$
-
-$$
-a^2 + b^2 = c^2
-$$
-
-## Wykres
-
-![Wykres](./wykres.png)
+## Wykres:
+![Rzut ukośny](https://github.com/mochrist9/useful_programs/blob/main/pages/solutions/01_sol_markdown/wykres.png)
