@@ -2,11 +2,11 @@
 
 ## Krótki tekst w pierwszej podsekcji
 
-Markdown pozwala formatować tekst i tworzyć czytelne dokumenty. W tym pliku pokazano kilka podstawowych elementów jego składni.
+Markdown pozwala formatować tekst i tworzyć czytelne dokumenty. Poniżej przedstawiam przykłady jego podstawowych możliwości.
 
-### Krótki tekst w kolejnej podsekcji
+## Krótki tekst w kolejnej podsekcji
 
-Poniżej znajdują się przykłady formatowania, list, tabeli, kodu, wzorów matematycznych oraz osadzonego obrazu.
+W tym dokumencie znajdują się przykłady formatowania, list, tabeli, kodu, wzorów matematycznych oraz osadzonego obrazu.
 
 Ten fragment jest **pogrubiony**.
 
@@ -16,27 +16,27 @@ Ten fragment jest ~~przekreślony~~.
 
 ## Lista punktowana
 
-- element 1
-- element 2
-- element 3
+- Pierwszy element
+- Drugi element
+- Trzeci element
 
 ## Lista numerowana
 
-1. element 1
-2. element 2
-3. element 3
+1. Pierwszy krok
+2. Drugi krok
+3. Trzeci krok
 
 ## Checklista
 
-- [x] zadanie wykonane
-- [ ] zadanie do wykonania
+- [x] Przygotowano dokument Markdown
+- [x] Dodano wymagane elementy zadania
 
 ## Tabela
 
-| Kolumna 1 | Kolumna 2 |
+| Przykład | Wartość |
 | --- | ---: |
-| Dane A | Dane B |
-| Dane C | Dane D |
+| Liczba pierwsza | 2 |
+| Liczba naturalna | 3 |
 
 ## Link do Google Colab
 
@@ -45,14 +45,14 @@ Ten fragment jest ~~przekreślony~~.
 ## Kod w Pythonie
 
 ```python
-print("Hello world!")
+print("Hello, world!")
 ```
 
 ## Wzory matematyczne w tekście
 
-1. Delta: $\Delta = b^2 - 4ac$.
-2. Pole koła: $P = \pi r^2$.
-3. Twierdzenie Pitagorasa: $a^2 + b^2 = c^2$.
+1. Równanie kwadratowe ma wyróżnik $\Delta = b^2 - 4ac$.
+2. Pole koła obliczamy ze wzoru $P = \pi r^2$.
+3. Twierdzenie Pitagorasa zapisujemy jako $a^2 + b^2 = c^2$.
 
 ## Wzory matematyczne jako osobne bloki
 
