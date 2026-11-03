@@ -1,54 +1,48 @@
-# Tytuł
-## krótki tekst w ramach jednej podsekcji
-### kolejny krótki tekst w ramach kolejnej podsekcji
-**co najmniej jeden fragment pogrubiony**
+# Markdown — przykładowy dokument
 
-*co najmniej jeden fragment pochylony*
+## Krótki tekst w pierwszej podsekcji
 
-~~co najmniej jeden fragment przekreślony~~
+Markdown pozwala w prosty sposób formatować tekst i tworzyć czytelne dokumenty. W tym pliku pokazano kilka podstawowych elementów składni.
 
-## Lista punktowana:
+### Krótki tekst w kolejnej podsekcji
+
+Poniżej znajdują się przykłady formatowania, list, tabeli, kodu, wzorów matematycznych oraz osadzonego obrazu.
+
+Ten fragment jest **pogrubiony**.
+
+Ten fragment jest *pochylony*.
+
+Ten fragment jest ~~przekreślony~~.
+
+## Lista punktowana
+
 - element 1
 - element 2
 - element 3
 
-## Lista numerowana:
+## Lista numerowana
+
 1. element 1
 2. element 2
 3. element 3
 
-## Checklista:
+## Checklista
+
 - [x] zrobione
 - [ ] niezrobione
 
-## Tabelka:
-Kolumna 1 | Kolumna 2 |
-| :-- | --: |
-|Dane a | Dane b |
+## Tabela
 
-## Link:
-[link do strony Google Colab: ](http://colab.research.google.com)
+| Kolumna 1 | Kolumna 2 |
+| --- | ---: |
+| Dane A | Dane B |
+| Dane C | Dane D |
 
-## Kod:
-'print("Hello world!")'
+## Link do Google Colab
 
-## Wzory matematyczne w tekście:
-1. wzór na deltę: $\Delta = b^2 - 4a$;
-2. wzór na pole koła: $P = \pi r^2$;
-3. najlepszy wzór matematyczny: $a^2 = b^2 + c^2$;
+[Google Colab](https://colab.research.google.com)
 
-## Wzory matematyczne jako osobny wycentrowany blok:
-1. wzór na deltę:
+## Kod w Pythonie
 
-$$\Delta = b^2 - 4a$$
-  
-2. wzór na pole koła:
-
-$$P = \pi r^2$$
-  
-3. najlepszy wzór matematyczny:
-
-$$a^2 = b^2 + c^2$$
-
-## Wykres:
-![Rzut ukośny](https://github.com/mochrist9/useful_programs/blob/main/pages/solutions/01_sol_markdown/wykres.png)
+```python
+print("Hello world!")
