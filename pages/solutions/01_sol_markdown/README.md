@@ -2,7 +2,7 @@
 
 ## Krótki tekst w pierwszej podsekcji
 
-Markdown pozwala w prosty sposób formatować tekst i tworzyć czytelne dokumenty. W tym pliku pokazano kilka podstawowych elementów składni.
+Markdown pozwala formatować tekst i tworzyć czytelne dokumenty. W tym pliku pokazano kilka podstawowych elementów jego składni.
 
 ### Krótki tekst w kolejnej podsekcji
 
@@ -28,8 +28,8 @@ Ten fragment jest ~~przekreślony~~.
 
 ## Checklista
 
-- [x] zrobione
-- [ ] niezrobione
+- [x] zadanie wykonane
+- [ ] zadanie do wykonania
 
 ## Tabela
 
@@ -40,9 +40,34 @@ Ten fragment jest ~~przekreślony~~.
 
 ## Link do Google Colab
 
-[Google Colab](https://colab.research.google.com)
+[Google Colab](http://colab.research.google.com)
 
 ## Kod w Pythonie
 
 ```python
 print("Hello world!")
+```
+
+## Wzory matematyczne w tekście
+
+1. Delta: $\Delta = b^2 - 4ac$.
+2. Pole koła: $P = \pi r^2$.
+3. Twierdzenie Pitagorasa: $a^2 + b^2 = c^2$.
+
+## Wzory matematyczne jako osobne bloki
+
+$$
+\Delta = b^2 - 4ac
+$$
+
+$$
+P = \pi r^2
+$$
+
+$$
+a^2 + b^2 = c^2
+$$
+
+## Wykres
+
+![Wykres](./wykres.png)
