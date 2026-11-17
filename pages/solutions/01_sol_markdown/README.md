@@ -38,7 +38,7 @@ print("Hello world!")
 ```
 
 ## Wzory matematyczne w tekście:
-1. wzór na deltę: $\Delta = b^2 - 4a$;
+1. wzór na deltę: $\Delta = b^2 - 4ac$;
 2. wzór na pole koła: $P = \pi r^2$;
 3. najlepszy wzór matematyczny: $a^2 = b^2 + c^2$;
 
