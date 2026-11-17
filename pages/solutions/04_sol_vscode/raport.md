@@ -15,7 +15,7 @@ Ważna konsekwencja danych z indeksu: kąt $97^\circ$ jest większy od $90^\circ
 ## Spis treści
 
 1. [Cel i model fizyczny](#1-cel-i-model-fizyczny)
-2. [Rzut ukośny bez oporu powietrza](#2-rzut-ukośny-bez-oporu-powietrza)
+​2. [Rzut ukośny bez oporu powietrza](#2-rzut-ukośny-bez-oporu-powietrza)
 3. [Przykład liczbowy i przebiegi czasowe bez oporu](#3-przykład-liczbowy-i-przebiegi-czasowe-bez-oporu)
 4. [Energia mechaniczna](#4-energia-mechaniczna)
 5. [Rzut ukośny z oporem kwadratowym](#5-rzut-ukośny-z-oporem-kwadratowym)
@@ -44,10 +44,7 @@ Początek układu współrzędnych umieszczamy w punkcie wyrzutu. Oś $x$ jest p
 
 Kąt $\alpha$ jest mierzony od dodatniego kierunku osi $x$ przeciwnie do ruchu wskazówek zegara. W obliczeniach numerycznych kąt jest zapisany w radianach:
 
-$$
-\alpha=97^\circ\cdot\frac{\pi}{180^\circ}
-=1{,}692969\,\mathrm{rad}.
-$$
+$$\alpha=97^\circ\cdot\frac{\pi}{180^\circ} =1{,}692969\,\mathrm{rad}.$$
 
 ![Schemat wektora prędkości początkowej, jej składowych oraz przyjętych osi](./wykresy_rzut_ukosny/01_schemat_wektorow.png)
 
@@ -56,7 +53,7 @@ $$
 ### 1.3. Założenia fizyczne
 
 1. Ziemskie pole grawitacyjne jest jednorodne, a przyspieszenie grawitacyjne ma stałą wartość $g=9{,}81\,\mathrm{m/s^2}$.
-2. Punkt startu i poziom lądowania znajdują się na tej samej wysokości.
+​2. Punkt startu i poziom lądowania znajdują się na tej samej wysokości.
 3. Wiatr nie występuje; powietrze jest nieruchome względem Ziemi.
 4. Ciało modelujemy jako kulę o stałej masie i średnicy.
 5. W modelu z oporem przyjmujemy stałą gęstość powietrza i stały współczynnik oporu aerodynamicznego.
@@ -86,11 +83,7 @@ Parametry ciała i powietrza nie wynikają z numeru indeksu. Aby można było ob
 
 Dla kuli pole przekroju poprzecznego wynosi:
 
-$$
-S=\pi\left(\frac{d}{2}\right)^2
-=\frac{\pi d^2}{4}
-=0{,}004185\,\mathrm{m^2}.
-$$
+$$S=\pi\left(\frac{d}{2}\right)^2 =\frac{\pi d^2}{4} =0{,}004185\,\mathrm{m^2}.$$
 
 ## 2. Rzut ukośny bez oporu powietrza
 
@@ -98,23 +91,13 @@ $$
 
 Wektor prędkości początkowej rozkładamy na składową poziomą i pionową:
 
-$$
- v_{0x}=v_0\cos\alpha,
- \qquad
- v_{0y}=v_0\sin\alpha.
-$$
+$$v_{0x}=v_0\cos\alpha, \qquad v_{0y}=v_0\sin\alpha.$$
 
 Po podstawieniu danych:
 
-$$
- v_{0x}=36\cos(97^\circ)
- =-4{,}3873\,\mathrm{m/s},
-$$
+$$v_{0x}=36\cos(97^\circ) =-4{,}3873\,\mathrm{m/s},$$
 
-$$
- v_{0y}=36\sin(97^\circ)
- =35{,}7317\,\mathrm{m/s}.
-$$
+$$v_{0y}=36\sin(97^\circ) =35{,}7317\,\mathrm{m/s}.$$
 
 Znak ujemny pierwszej składowej oznacza początkowy ruch w lewo. Składowa pionowa jest dodatnia, zatem ciało początkowo wznosi się.
 
@@ -122,46 +105,31 @@ Znak ujemny pierwszej składowej oznacza początkowy ruch w lewo. Składowa pion
 
 W modelu bez oporu jedyną siłą działającą na ciało jest siła ciężkości:
 
-$$
-\vec F_g=m\vec g.
-$$
+$$\vec F_g=m\vec g.$$
 
 Po przyjęciu osi $y$ skierowanej do góry:
 
-$$
-F_x=0,
-\qquad F_y=-mg.
-$$
+$$F_x=0, \qquad F_y=-mg.$$
 
 Z drugiej zasady Newtona $m\vec a=\vec F$ otrzymujemy:
 
-$$
-m a_x=0,\qquad m a_y=-mg.
-$$
+$$m a_x=0,\qquad m a_y=-mg.$$
 
 Po podzieleniu przez masę:
 
-$$
-\boxed{a_x=0,\qquad a_y=-g.}
-$$
+$$a_x=0,\qquad a_y=-g.$$
 
 Ponieważ $a_x=dv_x/dt=0$, składowa pozioma prędkości jest stała:
 
-$$
-\boxed{v_x(t)=v_0\cos\alpha.}
-$$
+$$v_x(t)=v_0\cos\alpha.$$
 
 Dla ruchu pionowego:
 
-$$
-\frac{dv_y}{dt}=-g.
-$$
+$$\frac{dv_y}{dt}=-g.$$
 
 Całkując po czasie i uwzględniając warunek $v_y(0)=v_0\sin\alpha$, dostajemy:
 
-$$
-\boxed{v_y(t)=v_0\sin\alpha-gt.}
-$$
+$$v_y(t)=v_0\sin\alpha-gt.$$
 
 ### 2.3. Wyprowadzenie równań położenia
 
@@ -169,68 +137,41 @@ Korzystamy z zależności $v_x=dx/dt$ oraz $v_y=dy/dt$.
 
 Dla osi poziomej:
 
-$$
-\frac{dx}{dt}=v_0\cos\alpha.
-$$
+$$\frac{dx}{dt}=v_0\cos\alpha.$$
 
 Całkowanie od $0$ do $t$, przy $x(0)=0$, daje:
 
-$$
-x(t)-x_0=\int_0^t v_0\cos\alpha\,d\tau,
-$$
+$$x(t)-x_0=\int_0^t v_0\cos\alpha\,d\tau,$$
 
-$$
-\boxed{x(t)=v_0\cos\alpha\,t.}
-$$
+$$x(t)=v_0\cos\alpha\,t.$$
 
 Dla osi pionowej:
 
-$$
-\frac{dy}{dt}=v_0\sin\alpha-gt.
-$$
+$$\frac{dy}{dt}=v_0\sin\alpha-gt.$$
 
 Po całkowaniu i zastosowaniu $y(0)=y_0$:
 
-$$
-y(t)-y_0=\int_0^t(v_0\sin\alpha-g\tau)\,d\tau,
-$$
+$$y(t)-y_0=\int_0^t(v_0\sin\alpha-g\tau)\,d\tau,$$
 
-$$
-\boxed{y(t)=y_0+v_0\sin\alpha\,t-\frac{gt^2}{2}.}
-$$
+$$y(t)=y_0+v_0\sin\alpha\,t-\frac{gt^2}{2}.$$
 
 Ostatecznie ruch bez oporu opisuje zestaw równań:
 
-$$
-\boxed{\begin{aligned}
-x(t)&=v_0\cos\alpha\,t,\\
-y(t)&=y_0+v_0\sin\alpha\,t-\frac12gt^2,\\
-v_x(t)&=v_0\cos\alpha,\\
-v_y(t)&=v_0\sin\alpha-gt,\\
-a_x(t)&=0,\qquad a_y(t)=-g.
-\end{aligned}}
-$$
+$$\begin{aligned} x(t)&=v_0\cos\alpha\,t,\\ y(t)&=y_0+v_0\sin\alpha\,t-\frac12gt^2,\\ v_x(t)&=v_0\cos\alpha,\\ v_y(t)&=v_0\sin\alpha-gt,\\ a_x(t)&=0,\qquad a_y(t)=-g. \end{aligned}$$
 
 ### 2.4. Równanie toru — parabola
 
 Aby otrzymać równanie toru, eliminujemy czas. Z równania poziomego:
 
-$$
-t=\frac{x}{v_0\cos\alpha},
-$$
+$$t=\frac{x}{v_0\cos\alpha},$$
 
 co jest dozwolone, ponieważ dla $97^\circ$ wartość $\cos\alpha$ nie jest równa zeru. Podstawiamy ten czas do równania pionowego:
 
-$$
-y=y_0+v_0\sin\alpha\frac{x}{v_0\cos\alpha}
--\frac{g}{2}\left(\frac{x}{v_0\cos\alpha}\right)^2.
-$$
+$$y=y_0+v_0\sin\alpha\frac{x}{v_0\cos\alpha} -\frac{g}{2}\left(\frac{x}{v_0\cos\alpha}\right)^2.$$
 
 Po uproszczeniu:
 
-$$
-\boxed{y(x)=y_0+x\tan\alpha-\frac{g x^2}{2v_0^2\cos^2\alpha}.}
-$$
+$$y(x)=y_0+x\tan\alpha-\frac{g x^2}{2v_0^2\cos^2\alpha}.$$
 
 Jest to równanie paraboli. Dla rozpatrywanego kąta jej część fizyczna leży po stronie $x\leq0$, ponieważ ciało przemieszcza się w lewo.
 
@@ -238,54 +179,35 @@ Jest to równanie paraboli. Dla rozpatrywanego kąta jej część fizyczna leży
 
 W najwyższym punkcie toru składowa pionowa prędkości jest równa zeru:
 
-$$
-v_y(t_H)=0.
-$$
+$$v_y(t_H)=0.$$
 
 Stąd:
 
-$$
-v_0\sin\alpha-gt_H=0,
-$$
+$$v_0\sin\alpha-gt_H=0,$$
 
-$$
-\boxed{t_H=\frac{v_0\sin\alpha}{g}.}
-$$
+$$t_H=\frac{v_0\sin\alpha}{g}.$$
 
 Wysokość maksymalną wyznaczamy, podstawiając $t_H$ do $y(t)$:
 
-$$
-h_{\max}=y_0+v_0\sin\alpha\frac{v_0\sin\alpha}{g}
--\frac{g}{2}\left(\frac{v_0\sin\alpha}{g}\right)^2,
-$$
+$$h_{\max}=y_0+v_0\sin\alpha\frac{v_0\sin\alpha}{g} -\frac{g}{2}\left(\frac{v_0\sin\alpha}{g}\right)^2,$$
 
-$$
-\boxed{h_{\max}=y_0+\frac{v_0^2\sin^2\alpha}{2g}.}
-$$
+$$h_{\max}=y_0+\frac{v_0^2\sin^2\alpha}{2g}.$$
 
 Jeśli poziom startu i lądowania jest ten sam, to $y(t_L)=y_0$. Wstawiamy tę wartość do równania położenia pionowego:
 
-$$
-v_0\sin\alpha\,t_L-\frac{g t_L^2}{2}=0.
-$$
+$$v_0\sin\alpha\,t_L-\frac{g t_L^2}{2}=0.$$
 
 Rozwiązania to $t_L=0$ (chwila wyrzutu) oraz dodatni czas lotu:
 
-$$
-\boxed{t_L=\frac{2v_0\sin\alpha}{g}.}
-$$
+$$t_L=\frac{2v_0\sin\alpha}{g}.$$
 
 Zasięg poziomy jest przemieszczeniem $x$ w chwili lądowania:
 
-$$
-R=x(t_L)=v_0\cos\alpha\frac{2v_0\sin\alpha}{g},
-$$
+$$R=x(t_L)=v_0\cos\alpha\frac{2v_0\sin\alpha}{g},$$
 
-$$
-\boxed{R=\frac{v_0^2\sin(2\alpha)}{g}.}
-$$
+$$R=\frac{v_0^2\sin(2\alpha)}{g}.$$
 
-W tym przypadku $R$ jest ujemny. Wartość bezwzględna $|R|$ jest odległością poziomą od punktu startu, a znak wskazuje kierunek w lewo.
+W tym przypadku $R$ jest ujemny. Wartość bezwzględna $\vert{}R\vert{}$ jest odległością poziomą od punktu startu, a znak wskazuje kierunek w lewo.
 
 ## 3. Przykład liczbowy i przebiegi czasowe bez oporu
 
@@ -316,13 +238,9 @@ Dla modelu idealnego szybkość przy lądowaniu jest równa szybkości początko
 
 Dla modelu idealnego współrzędna pozioma zmienia się liniowo, ponieważ $v_x$ jest stałe. Współrzędna pionowa jest funkcją kwadratową czasu, a jej wykres ma kształt paraboli:
 
-$$
-x(t)=-4{,}3873\,t\;\mathrm{m},
-$$
+$$x(t)=-4{,}3873\,t\,\mathrm{m},$$
 
-$$
-y(t)=35{,}7317\,t-4{,}905\,t^2\;\mathrm{m},
-$$
+$$y(t)=35{,}7317\,t-4{,}905\,t^2\,\mathrm{m},$$
 
 przy czym $t$ podajemy w sekundach.
 
@@ -334,19 +252,13 @@ przy czym $t$ podajemy w sekundach.
 
 W modelu idealnym:
 
-$$
-v_x(t)=-4{,}3873\,\mathrm{m/s},
-$$
+$$v_x(t)=-4{,}3873\,\mathrm{m/s},$$
 
-$$
-v_y(t)=35{,}7317-9{,}81t\;\mathrm{m/s}.
-$$
+$$v_y(t)=35{,}7317-9{,}81t\,\mathrm{m/s}.$$
 
 Składowa pozioma prędkości pozostaje stała. Składowa pionowa maleje liniowo, osiąga zero w apogeum, a następnie staje się ujemna. Szybkość jest wartością wektora prędkości:
 
-$$
-|\vec v(t)|=\sqrt{v_x(t)^2+v_y(t)^2}.
-$$
+$$\vert{}\vec v(t)\vert{}=\sqrt{v_x(t)^2+v_y(t)^2}.$$
 
 ![Składowe prędkości i szybkość dla modelu idealnego oraz modelu z oporem](./wykresy_rzut_ukosny/04_predkosc_czas.png)
 
@@ -358,38 +270,25 @@ $$
 
 Energia kinetyczna ciała o masie $m$ i szybkości $v$ jest równa:
 
-$$
-E_k=\frac12mv^2
-=\frac12m(v_x^2+v_y^2).
-$$
+$$E_k=\frac12mv^2 =\frac12m(v_x^2+v_y^2).$$
 
 Energia potencjalna grawitacji względem poziomu startu:
 
-$$
-E_p=mgy.
-$$
+$$E_p=mgy.$$
 
 Suma tych energii to energia mechaniczna:
 
-$$
-E_m=E_k+E_p.
-$$
+$$E_m=E_k+E_p.$$
 
 ### 4.2. Zachowanie energii bez oporu
 
 W modelu idealnym jedyną siłą wykonującą pracę jest siła grawitacji, która jest zachowawcza. Dlatego energia mechaniczna jest stała:
 
-$$
-\boxed{E_m=\frac12m(v_x^2+v_y^2)+mgy=\mathrm{const}.}
-$$
+$$E_m=\frac12m(v_x^2+v_y^2)+mgy=\mathrm{const}.$$
 
 W chwili startu $y=0$ i $v=v_0$, więc:
 
-$$
-E_m=\frac12mv_0^2
-=\frac12\cdot0{,}145\cdot36^2
-=93{,}96\,\mathrm{J}.
-$$
+$$E_m=\frac12mv_0^2 =\frac12\cdot0{,}145\cdot36^2 =93{,}96\,\mathrm{J}.$$
 
 W najwyższym punkcie toru energia potencjalna jest największa, natomiast energia kinetyczna nie jest zerowa, ponieważ ciało nadal porusza się poziomo z prędkością $v_x=-4{,}3873\,\mathrm{m/s}$.
 
@@ -407,87 +306,55 @@ Siła oporu aerodynamicznego wykonuje pracę ujemną. Energia mechaniczna nie je
 
 W wielu praktycznych sytuacjach, zwłaszcza przy większych szybkościach, stosuje się model oporu kwadratowego. Wartość siły oporu jest opisana wzorem:
 
-$$
-F_d=\frac12\rho C_d S v^2,
-$$
+$$F_d=\frac12\rho C_d S v^2,$$
 
-gdzie $\rho$ oznacza gęstość powietrza, $C_d$ — współczynnik oporu, $S$ — pole przekroju poprzecznego, a $v=|\vec v|$ — szybkość ciała.
+gdzie $\rho$ oznacza gęstość powietrza, $C_d$ — współczynnik oporu, $S$ — pole przekroju poprzecznego, a $v=\vert{}\vec v\vert{}$ — szybkość ciała.
 
 Wektor siły jest skierowany przeciwnie do wektora prędkości:
 
-$$
-\boxed{\vec F_d=-\frac12\rho C_d S|\vec v|\vec v.}
-$$
+$$\vec F_d=-\frac12\rho C_d S\vert{}\vec v\vert{}\vec v.$$
 
 Znak minus jest istotny: siła oporu zawsze przeciwdziała aktualnemu ruchowi. Nie należy z góry zakładać, że jej składowe mają stałe znaki — zależą one od znaków składowych prędkości.
 
 Dla przejrzystości wprowadzamy parametr:
 
-$$
-\beta=\frac{\rho C_d S}{2m}.
-$$
+$$\beta=\frac{\rho C_d S}{2m}.$$
 
 Po podstawieniu parametrów:
 
-$$
-\beta=\frac{1{,}225\cdot0{,}470\cdot0{,}004185}{2\cdot0{,}145}
-\approx0{,}008309\,\mathrm{m^{-1}}.
-$$
+$$\beta=\frac{1{,}225\cdot0{,}470\cdot0{,}004185}{2\cdot0{,}145} \approx0{,}008309\,\mathrm{m^{-1}}.$$
 
 ### 5.2. Wyprowadzenie równań ruchu
 
 Z drugiej zasady Newtona:
 
-$$
-m\vec a=\vec F_g+\vec F_d.
-$$
+$$m\vec a=\vec F_g+\vec F_d.$$
 
 Dla osi poziomej siła ciężkości nie ma składowej, zatem:
 
-$$
-m\frac{dv_x}{dt}=-\frac12\rho C_d S|\vec v|v_x.
-$$
+$$m\frac{dv_x}{dt}=-\frac12\rho C_d S\vert{}\vec v\vert{}v_x.$$
 
 Dzieląc przez $m$ i korzystając z definicji $\beta$:
 
-$$
-\boxed{\frac{dv_x}{dt}=-\beta\sqrt{v_x^2+v_y^2}\,v_x.}
-$$
+$$\frac{dv_x}{dt}=-\beta\sqrt{v_x^2+v_y^2}\,v_x.$$
 
 W osi pionowej uwzględniamy również ciężar:
 
-$$
-m\frac{dv_y}{dt}=-mg-\frac12\rho C_d S|\vec v|v_y,
-$$
+$$m\frac{dv_y}{dt}=-mg-\frac12\rho C_d S\vert{}\vec v\vert{}v_y,$$
 
-$$
-\boxed{\frac{dv_y}{dt}=-g-\beta\sqrt{v_x^2+v_y^2}\,v_y.}
-$$
+$$\frac{dv_y}{dt}=-g-\beta\sqrt{v_x^2+v_y^2}\,v_y.$$
 
 Równania położenia pozostają definicjami prędkości:
 
-$$
-\frac{dx}{dt}=v_x,\qquad \frac{dy}{dt}=v_y.
-$$
+$$\frac{dx}{dt}=v_x,\qquad \frac{dy}{dt}=v_y.$$
 
 Otrzymujemy układ czterech równań pierwszego rzędu:
 
-$$
-\boxed{\begin{aligned}
-\dot{x}&=v_x,\\
-\dot{y}&=v_y,\\
-\dot{v}_x&=-\beta\sqrt{v_x^2+v_y^2}\,v_x,\\
-\dot{v}_y&=-g-\beta\sqrt{v_x^2+v_y^2}\,v_y.
-\end{aligned}}
-$$
+$$\begin{aligned} \dot{x}&=v_x,\\ \dot{y}&=v_y,\\ \dot{v}_x&=-\beta\sqrt{v_x^2+v_y^2}\,v_x,\\ \dot{v}_y&=-g-\beta\sqrt{v_x^2+v_y^2}\,v_y. \end{aligned}$$
 
 Warunki początkowe są następujące:
 
-$$
-x(0)=0,\quad y(0)=0,\quad
-v_x(0)=-4{,}3873\,\mathrm{m/s},\quad
-v_y(0)=35{,}7317\,\mathrm{m/s}.
-$$
+$$x(0)=0,\quad y(0)=0,\quad v_x(0)=-4{,}3873\,\mathrm{m/s},\quad v_y(0)=35{,}7317\,\mathrm{m/s}.$$
 
 ### 5.3. Dlaczego potrzebne jest całkowanie numeryczne?
 
@@ -499,32 +366,21 @@ W ogólnym przypadku takiego układu nie rozwiązujemy za pomocą prostych wzor�
 
 Energia mechaniczna wynosi:
 
-$$
-E_m=\frac12m|\vec v|^2+mgy.
-$$
+$$E_m=\frac12m\vert{}\vec v\vert{}^2+mgy.$$
 
 Różniczkujemy po czasie:
 
-$$
-\frac{dE_m}{dt}=m\vec v\cdot\vec a+mgv_y.
-$$
+$$\frac{dE_m}{dt}=m\vec v\cdot\vec a+mgv_y.$$
 
 Z równania ruchu $m\vec a=m\vec g+\vec F_d$ wynika, że wkład grawitacji znosi się ze zmianą energii potencjalnej. Pozostaje moc siły oporu:
 
-$$
-\frac{dE_m}{dt}=\vec F_d\cdot\vec v.
-$$
+$$\frac{dE_m}{dt}=\vec F_d\cdot\vec v.$$
 
 Po podstawieniu modelu oporu:
 
-$$
-\frac{dE_m}{dt}=
--\frac12\rho C_d S|\vec v|\,\vec v\cdot\vec v,
-$$
+$$\frac{dE_m}{dt}= -\frac12\rho C_d S\vert{}\vec v\vert{}\,\vec v\cdot\vec v,$$
 
-$$
-\boxed{\frac{dE_m}{dt}=-\frac12\rho C_d S|\vec v|^3\leq0.}
-$$
+$$\frac{dE_m}{dt}=-\frac12\rho C_d S\vert{}\vec v\vert{}^3\leq0.$$
 
 Energia mechaniczna maleje lub — w granicznym przypadku zerowej prędkości — chwilowo pozostaje stała. Ubytek energii mechanicznej jest związany z pracą wykonaną przez opór powietrza.
 
@@ -606,7 +462,7 @@ Wykres jest analizą wrażliwości modelu, a nie dodatkowym pomiarem. Pokazuje, 
 Program wykonuje kilka kontroli numerycznych:
 
 1. Sprawdza znaki składowych prędkości początkowej: dla $97^\circ$ powinno być $v_{0x}<0$ i $v_{0y}>0$.
-2. Sprawdza, czy ruch idealny kończy się na wysokości początkowej.
+​2. Sprawdza, czy ruch idealny kończy się na wysokości początkowej.
 3. Sprawdza zachowanie energii mechanicznej w modelu bez oporu.
 4. Sprawdza, czy energia mechaniczna w modelu z oporem nie rośnie.
 5. Sprawdza, czy zdarzenie lądowania spełnia warunek $y=y_0$.
@@ -624,13 +480,6 @@ W terminalu, w katalogu zawierającym plik `generuj_wykresy_rzut_ukosny.py`, wyk
 ```bash
 python -m pip install numpy scipy matplotlib
 python generuj_wykresy_rzut_ukosny.py
-```
-
-Skrypt utworzy katalog `wykresy_rzut_ukosny` i zapisze w nim siedem plików PNG. Aby dodatkowo wyświetlać wykresy podczas generowania, można użyć:
-
-```bash
-python generuj_wykresy_rzut_ukosny.py --show
-```
 
 ### 8.2. Zestaw wygenerowanych plików
 
