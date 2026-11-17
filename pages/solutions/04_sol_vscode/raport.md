@@ -46,7 +46,7 @@ Kąt $\alpha$ jest mierzony od dodatniego kierunku osi $x$ przeciwnie do ruchu w
 
 $$\alpha=97^\circ\cdot\frac{\pi}{180^\circ} =1{,}692969\,\mathrm{rad}.$$
 
-![Schemat wektora prędkości początkowej, jej składowych oraz przyjętych osi](./wykresy_rzut_ukosny/01_schemat_wektorow.png)
+![Schemat wektora prędkości początkowej, jej składowych oraz przyjętych osi](./wykresy_rzut_ukosny/01_Schemat_rzutu_ukośnego_i_przyjęty_układ_osi.png)
 
 *Rysunek 1. Schemat rzutu i konwencja znaków. Ponieważ `α = 97°`, składowa $v_{0x}$ jest ujemna, a $v_{0y}$ dodatnia.*
 
@@ -230,7 +230,7 @@ Dla modelu idealnego szybkość przy lądowaniu jest równa szybkości początko
 
 ### 3.2. Trajektoria lotu — model idealny
 
-![Porównanie torów lotu bez oporu powietrza i z oporem kwadratowym](./wykresy_rzut_ukosny/02_tory_lotu_porownanie.png)
+![Porównanie torów lotu bez oporu powietrza i z oporem kwadratowym](./wykresy_rzut_ukosny/02_Bilans_energii_mechanicznej_podczas_lotu.png)
 
 *Rysunek 2. Niebieska linia przedstawia parabolę bez oporu, a pomarańczowa — tor obliczony numerycznie z oporem. Oba tory rozpoczynają się w punkcie `(0, 0)`. Dla `α = 97°` wartości $x$ w czasie lotu są ujemne.*
 
@@ -244,7 +244,7 @@ $$y(t)=35{,}7317\,t-4{,}905\,t^2\,\mathrm{m},$$
 
 przy czym $t$ podajemy w sekundach.
 
-![Współrzędna pozioma i wysokość w funkcji czasu dla obu modeli](./wykresy_rzut_ukosny/03_polozenie_czas.png)
+![Współrzędna pozioma i wysokość w funkcji czasu dla obu modeli](./wykresy_rzut_ukosny/03_Porównanie_torów_lotu_dla_kąta_97°.png)
 
 *Rysunek 3. Porównanie `x(t)` i `y(t)`. Z oporem ciało osiąga mniejszą wysokość, krócej przebywa w powietrzu i pokonuje mniejsze przemieszczenie poziome.*
 
@@ -260,7 +260,7 @@ Składowa pozioma prędkości pozostaje stała. Składowa pionowa maleje liniowo
 
 $$\vert{}\vec v(t)\vert{}=\sqrt{v_x(t)^2+v_y(t)^2}.$$
 
-![Składowe prędkości i szybkość dla modelu idealnego oraz modelu z oporem](./wykresy_rzut_ukosny/04_predkosc_czas.png)
+![Składowe prędkości i szybkość dla modelu idealnego oraz modelu z oporem](./wykresy_rzut_ukosny/04_Skutki_działania_oporu_powietrza.png)
 
 *Rysunek 4. W modelu z oporem wartość bezwzględna poziomej składowej prędkości maleje, ponieważ siła oporu przeciwdziała ruchowi w poziomie. Szybkość jest najmniejsza w pobliżu apogeum, ale w tym modelu nie musi być tam równa zeru — pozostaje pozioma składowa ruchu.*
 
@@ -296,9 +296,9 @@ W najwyższym punkcie toru energia potencjalna jest największa, natomiast energ
 
 Siła oporu aerodynamicznego wykonuje pracę ujemną. Energia mechaniczna nie jest już stała — część energii mechanicznej zostaje rozproszona w otoczeniu. Jej bilans dla modelu z oporem wyprowadzono w rozdziale 5.4.
 
-![Energia kinetyczna, potencjalna i mechaniczna w obu modelach](./wykresy_rzut_ukosny/06_energia.png)
+![Energia kinetyczna, potencjalna i mechaniczna w obu modelach](./wykresy_rzut_ukosny/05_Wpływ_przyjętego_współczynnika_oporu_na_tor_lotu.png)
 
-**Rysunek 5.** Bez oporu suma energii pozostaje stała i wynosi `93,96 J`. W modelu z oporem energia mechaniczna maleje; w przyjętym przykładzie do chwili lądowania ubywa około `52,6%` energii początkowej.
+*Rysunek 5. Bez oporu suma energii pozostaje stała i wynosi `93,96 J`. W modelu z oporem energia mechaniczna maleje; w przyjętym przykładzie do chwili lądowania ubywa około `52,6%` energii początkowej.*
 
 ## 5. Rzut ukośny z oporem kwadratowym
 
@@ -401,7 +401,7 @@ Dla przyjętych parametrów solver uzyskał następujące wartości:
 | Energia mechaniczna przy starcie | $93{,}960\,\mathrm{J}$ |
 | Energia mechaniczna przy lądowaniu | $44{,}552\,\mathrm{J}$ |
 
-![Składowe przyspieszenia oraz wartość siły oporu aerodynamicznego](./wykresy_rzut_ukosny/05_przyspieszenie_i_sila_oporu.png)
+![Składowe przyspieszenia oraz wartość siły oporu aerodynamicznego](./wykresy_rzut_ukosny/06_Położenie_ciała_w_funkcji_czasu.png)
 
 *Rysunek 6. Opór zmienia obie składowe przyspieszenia. W chwili początkowej siła oporu jest przeciwnie skierowana do wektora prędkości, czyli ma składową poziomą skierowaną w prawo i pionową skierowaną w dół. W miarę zmniejszania szybkości maleje również wartość siły oporu.*
 
@@ -435,7 +435,7 @@ Wartości procentowe obliczono z wartości bezwzględnych przemieszczenia poziom
 
 W celu sprawdzenia wpływu siły aerodynamicznej wykonano dodatkową symulację, w której zmieniano tylko współczynnik $C_d$, pozostawiając bez zmian masę, średnicę, gęstość powietrza, prędkość początkową i kąt.
 
-![Wpływ współczynnika oporu aerodynamicznego na tor lotu](./wykresy_rzut_ukosny/07_wrazliwosc_wspolczynnik_oporu.png)
+![Wpływ współczynnika oporu aerodynamicznego na tor lotu](./wykresy_rzut_ukosny/07_Schemat_rzutu_ukośnego_i_przyjęty_układ_osi.png)
 
 *Rysunek 7. Większy współczynnik `Cd` oznacza silniejszy opór w przyjętym modelu, a w konsekwencji niższy tor i krótszy przelot. Krzywa $C_d=0$ odpowiada modelowi idealnemu.*
 
