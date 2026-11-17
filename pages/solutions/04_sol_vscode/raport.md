@@ -14,7 +14,7 @@ Ważna konsekwencja danych z indeksu: kąt $97^\circ$ jest większy od $90^\circ
 
 ## Spis treści
 
-1. [Cel i model fizyczny](#1-cel-i-model-fizyczny)
+1. [Cel i model fizyczny](#1-cel-i-model-fizyczny) 
 ​2. [Rzut ukośny bez oporu powietrza](#2-rzut-ukośny-bez-oporu-powietrza)
 3. [Przykład liczbowy i przebiegi czasowe bez oporu](#3-przykład-liczbowy-i-przebiegi-czasowe-bez-oporu)
 4. [Energia mechaniczna](#4-energia-mechaniczna)
