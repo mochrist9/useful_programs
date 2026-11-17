@@ -1,10 +1,14 @@
 # Tytuł
 krótki tekst w ramach jednej podsekcji.
-## Podsekcja
-kolejny krótki tekst w ramach kolejnej podsekcji
+
+## Podsekcja 1
+kolejny krótki tekst w ramach pierwszej podsekcji.
 **co najmniej jeden fragment pogrubiony**
 *co najmniej jeden fragment pochylony*
 ~~co najmniej jeden fragment przekreślony~~
+
+## Podsekcja 2
+To jest druga podsekcja z dodatkowymi informacjami i przykładowym tekstem.
 
 ## Lista punktowana:
 - element 1
@@ -21,15 +25,17 @@ kolejny krótki tekst w ramach kolejnej podsekcji
 - [ ] niezrobione
 
 ## Tabelka:
-Kolumna 1 | Kolumna 2 |
+| Kolumna 1 | Kolumna 2 |
 | :-- | --: |
-|Dane a | Dane b |
+| Dane a | Dane b |
 
 ## Link:
-[link do strony Google Colab: ](http://colab.research.google.com)
+[link do strony Google Colab](http://colab.research.google.com)
 
 ## Kod:
-'print("Hello world!")'
+```python
+print("Hello world!")
+```
 
 ## Wzory matematyczne w tekście:
 1. wzór na deltę: $\Delta = b^2 - 4a$;
@@ -40,14 +46,14 @@ Kolumna 1 | Kolumna 2 |
 1. wzór na deltę:
 
 $$\Delta = b^2 - 4a$$
-  
+
 2. wzór na pole koła:
 
 $$P = \pi r^2$$
-  
+
 3. najlepszy wzór matematyczny:
 
 $$a^2 = b^2 + c^2$$
 
 ## Wykres:
-![Rzut ukośny](https://github.com/mochrist9/useful_programs/blob/main/pages/solutions/01_sol_markdown/wykres.png)
+![Rzut ukośny](wykres.png)
