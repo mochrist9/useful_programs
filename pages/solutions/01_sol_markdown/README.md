@@ -45,15 +45,21 @@ print("Hello world!")
 ## Wzory matematyczne jako osobny wycentrowany blok:
 1. wzór na deltę:
 
-$$\Delta = b^2 - 4a$$
+$$
+\Delta = b^2 - 4a
+$$
 
 2. wzór na pole koła:
 
-$$P = \pi r^2$$
+$$
+P = \pi r^2
+$$
 
 3. najlepszy wzór matematyczny:
 
-$$a^2 = b^2 + c^2$$
+$$
+a^2 = b^2 + c^2
+$$
 
 ## Wykres:
 ![Rzut ukośny](wykres.png)
