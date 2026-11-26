@@ -480,6 +480,7 @@ W terminalu, w katalogu zawierającym plik `generuj_wykresy_rzut_ukosny.py`, wyk
 ```bash
 python -m pip install numpy scipy matplotlib
 python generuj_wykresy_rzut_ukosny.py
+```
 
 ### 8.2. Zestaw wygenerowanych plików
 
